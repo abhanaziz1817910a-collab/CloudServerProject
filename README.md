@@ -46,7 +46,14 @@ To verify Apache was running, I entered the my IP address on a browser to see th
   2. Add HTML content
        *The HTML files are available in this repository under the website/ folder
 
-### Step 5 - SSL Certificate/HTTPS setup
+### Step 5 - Domain and DNS Configuration
+- Purchased/connected custom domain: **abhansworkshop.com**
+- Added DNS records in Azure:
+  - **A Record** → Points to the public IP address of the VM.
+  - **CNAME Record** → Points `www.abhansworkshop.com` to `abhansworkshop.com`.
+- Verified domain using the Azure portal and confirmed that the site loads securely via HTTPS.
+
+### Step 6 - SSL Certificate/HTTPS setup
   1. Install Snapd and Certbot
        *`sudo apt update`
        *`sudo apt update`
