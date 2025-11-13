@@ -18,13 +18,13 @@ I created an Ubuntu Linux VM on Microsoft Azure to host my ICT171 Cloud Server P
 - Clicked Create a resource → Compute → Virtual Machine
 - Chose the following configuration:
   - Subscription: Student subscription
-  - Resource group: Assignment2Group
-  - Virtual machine name: Assignment2
+  - Resource group: Assignment1Group
+  - Virtual machine name: Assignment1
   - Region: Central India (Recommended with the Subscription)
   - Image: Ubuntu Server 22.04 LTS
   - Size: Standard_B1s (1 vCPU, 1 GB RAM)
   - Set Authentication type to SSH public key
-  - Uploaded the key file assignment2_key.pem
+  - Uploaded the key file assignment1_key.pem
   - Allowed inbound ports:
     - HTTP (port 80)
     - HTTPS (port 443)
