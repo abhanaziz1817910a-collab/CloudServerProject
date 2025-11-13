@@ -32,12 +32,10 @@ I created an Ubuntu Linux VM on Microsoft Azure to host my ICT171 Cloud Server P
   -Clicked Review + Create, then Create to deploy the VM.
 
 ### Step 2 — SSH into VM 
-  ```bash```
   `chmod 600 assignment2_key.pem`
   `ssh -i "assignment2_key.pem" azureuser@4.247.144.67`
 
 ### Step 3 — Install Apache2
-  ```bash```
   `sudo apt update`
   `sudo install Apache2 -y`
 To verify Apache was running, I entered the my IP address on a browser to see the default Apache2 page
@@ -50,7 +48,6 @@ To verify Apache was running, I entered the my IP address on a browser to see th
 
 ### Step 5 - SSL Certificate/HTTPS setup
   1. Install Snapd and Certbot
-       ```bash```
        `sudo apt update`
        `sudo apt update`
        `sudo apt install snapd`
