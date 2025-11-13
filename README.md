@@ -20,7 +20,7 @@ I created an Ubuntu Linux VM on Microsoft Azure to host my ICT171 Cloud Server P
   - Subscription: Student subscription
   - Resource group: Assignment2Group
   - Virtual machine name: Assignment2
-  - Region: Central India (Region compatible with the Subscription)
+  - Region: Central India (Recommended with the Subscription)
   - Image: Ubuntu Server 22.04 LTS
   - Size: Standard_B1s (1 vCPU, 1 GB RAM)
   - Set Authentication type to SSH public key
